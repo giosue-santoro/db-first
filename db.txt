@@ -1,0 +1,11 @@
+car_id		        BIGINT          NOTNULL        AUTO_INCREMENT
+name	            VARCHAR		    NOTNULL			
+price 		        DOUBLE(5)		NOTNULL		   DEFAULT 0.00	
+type		        VARCHAR			NOTNULL			
+km			        DOUBLE(5)	    NOTNULL
+years		        DOUBLE(1)		NOTNULL			
+colour		        VARCHAR			NOTNULL			
+fuel		        VARCHAR			NOTNULL		
+seats		        DOUBLE(1)		NOTNULL					
+plate               VARCHAR	        NOTNULL
+cruiseControl       TINYINT(1)      NULL
